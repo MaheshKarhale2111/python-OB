@@ -13,6 +13,17 @@ for x in l :
     d[x] = d[x] + 1
 
 
+# to add new things in dictioany there is no add/ append function 
+
+#just do
+l['iitm'] = 2
+
+# deleting a key and value 
+
+del l["iitm"] 
+# or 
+l.pop("iitm")
+
 # d = {'Mahesh': 1, 'is': 1, 'a': 1, 'good': 1, 'boy': 1}
     
 # print(d)

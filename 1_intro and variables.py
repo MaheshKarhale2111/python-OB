@@ -45,3 +45,7 @@ print(1 < x < 10)
 print("mahesh \t karhale") # gives one tab space 
 print("mahesh\nkarhale")  # prints in new line
 
+# rouding in python 
+
+x = 5.5666 
+print(round(x,2))

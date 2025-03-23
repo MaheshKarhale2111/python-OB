@@ -17,7 +17,6 @@ y = 1969
 # print(d,m,y,sep = "-")
 
 #curly braces kind of functionality in python 
-
 print(f'day is {d} month is {m} year is {y}')
 #another way 
 print(' day is{0},month is {1}, year is{2}'.format(d,m,y))

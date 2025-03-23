@@ -2,6 +2,9 @@
 l = [1,2,"mahehsh"] # this is list 
 s = {65,9,6,6} # this is set 
 
+# to initialize a set
+# you can't use s = {} as it will be dictionary 
+# use s = set()
 
 # l = list(range(1000000000)) 
 # s = list(range(100000))

@@ -24,7 +24,7 @@ print(s.title()) #Mahesh\
 #for trimming, python has strip 
 a = "   hello  "
 print(a.strip()) # removes white spaces 
-print("-@-hello---@".strip('-@')) #removes the characters mentioned in the strip function 
+print("-@@-hello---@".strip('-@')) # output hello, #removes the characters mentioned in the strip function 
 # there is also rstrip() and lstrip() to only remove characters from left and right side 
 print("---hel--lo----".strip('-')) # strip does not remove characters inbetween 
 
@@ -42,6 +42,12 @@ print("hello".replace('ll','L')) # returns "heLo"
 text = 'abcdefg'
 text = text[:1] + 'Z' + text[2:]
 
+
+s = "hello"
+p = s
+# p and s are pointing to same object location in python 
+# to copy new string 
+p = s[:]
 
 # print the line #->Double forward slash // and Double backward slash \\
 print("Double forward slash // and Double backward slash \\\\") 

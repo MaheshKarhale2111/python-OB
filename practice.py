@@ -1,7 +1,14 @@
-p = 0
+n = int(input())
+M = [ ]
+for i in range(n):
+    row = [ ]
+    for num in input().split(','):
+        row.append(int(num))
+    M.append(row)
 
-for x in range(100):
-    for y in range(100):
-        if x != y:
-            p= p + 1
-print(p)
+some_var = 0
+for i in range(n):
+    for j in range(n):
+        some_var += M[i][j]
+
+print(some_var)

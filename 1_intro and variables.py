@@ -1,6 +1,6 @@
 print(type(1+4/2))
 # it is float , 
-# the reason beging the division operator returns in float. 
+# the reason being the division operator returns in float. 
 # so it is 1 + 2.0 = 3.0 which is float 
 
 
@@ -28,7 +28,7 @@ output4 = '-'*50 # str: just the hypen "-" repeated 50 times
 
 _ = 6 # this is allowed ( can make good interview question)
 
-# deleting a varialbe 
+# deleting a variable
 a = 6
 del a # this will delete variable a
 

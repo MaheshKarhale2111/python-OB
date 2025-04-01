@@ -27,5 +27,5 @@ class Student:
         print(self.roll_no, self.name)
         
 
-s0 = Student(0,"Mahesh")
-s0.display()
+s0 = Student()
+# s0.display()
